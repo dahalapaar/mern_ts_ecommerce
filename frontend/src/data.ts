@@ -65,4 +65,16 @@ export const sampleProducts: Product[] = [
     numReviews: 12,
     description: "Good Quality",
   },
+  {
+    name: "Nike",
+    slug: "nike-slims",
+    category: "Shirts",
+    image: "../images/p3.jpg",
+    price: 120,
+    countInstock: 10,
+    brand: "Nike",
+    rating: 5,
+    numReviews: 12,
+    description: "Good Quality",
+  },
 ]
