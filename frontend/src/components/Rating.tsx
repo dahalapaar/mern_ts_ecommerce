@@ -44,7 +44,7 @@ function Rating(props: {
         <i
           className={
             rating >= 4
-              ? "fas fa-stat"
+              ? "fas fa-star"
               : rating >= 3.5
               ? "fas fa-star-half-alt"
               : "far fa-star"
@@ -65,7 +65,7 @@ function Rating(props: {
       {caption ? (
         <span>{caption}</span>
       ) : rating != 0 ? (
-        <span>{"" + numReviews + "reviews"}</span>
+        <span>{"" + numReviews + " reviews"}</span>
       ) : (
         ""
       )}

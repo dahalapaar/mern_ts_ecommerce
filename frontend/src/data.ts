@@ -62,7 +62,7 @@ export const sampleProducts: Product[] = [
     countInstock: 10,
     brand: "Nike",
     rating: 5,
-    numReviews: 12,
+    numReviews: 4,
     description: "Good Quality",
   },
   {
